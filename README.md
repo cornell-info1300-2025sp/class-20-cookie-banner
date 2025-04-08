@@ -11,45 +11,52 @@ Follow these steps to implement the cookie banner
 
 2. Code the HTML & CSS for Interactivity
 
-    Add the `id="cookie-banner"` to the `dialog` element <br>
-    Add the `id="cookie-accept-button` to the `button` element <br>
-    Add the `.hidden` class to the CSS
+    - Add the `id="cookie-banner"` to the `dialog` element <br>
+    - Add the `id="cookie-accept-button` to the `button` element <br>
+    - Add the `.hidden` class to the CSS
 
-        .hidden {
+        `.hidden {
             display: none !important;
-        }
+        }`
 
-    Be sure to include the `!important` part!
+        Be sure to include the `!important` part!
 
 3.  Setup `index.html` to use jQuery
    
-    Add `jquery-3.7.1.js` file at the bottom of all the HTML pages - this is already in your `scripts` sub-directory:
+    - Add `jquery-3.7.1.js` file at the bottom of all the HTML pages - this is already in your `scripts` sub-directory:
    
-     `<script src="scripts/jquery-3.7.1.js"></script>`
+        `<script src="scripts/jquery-3.7.1.js"></script>`
 
-4.  Create a `cookie-banner.js` file in the `scripts` sub-directory
+4.  Setup `cookie-banner.js` to code the JS interactivity
 
-5.  Add `cookie-banner.js` file at the bottom of all the HTML pages - **after** the `jquery-3.7.1.js`:
+    - Create a `cookie-banner.js` file in the `scripts` sub-directory
+
+    - Add `cookie-banner.js` file at the bottom of all the HTML pages - **after** the `jquery-3.7.1.js`:
    
-     `<script src="scripts/cookie-banner.js"></script>`
+        `<script src="scripts/cookie-banner.js"></script>`
 
-6. Test that your `cookie-banner.js` script is loading
+5. Test that your `cookie-banner.js` script is loading
 
-    Add `console.log("cookie-banner.js loaded!")"` to `cookie-banner.js`
+    - Add `console.log("cookie-banner.js loaded!")"` to `cookie-banner.js`
 
-    `Inspect` the page and open the `console` top view the messages.
+    - `Inspect` the page and open the `console` top view the messages.
 
-    The console should display the message `cookie-banner.js loaded!` if everything is setup properly.
+        The console should display the message `cookie-banner.js loaded!` if everything is setup properly.
 
-7. Code the interactivity for the cookie banner using these snippets:
+6. Code the interactivity for the cookie banner using these snippets:
 
+    Pseudocode:
+
+        when #cookie-accept-button is clicked 
+            add .hidden class to #cookie-banner
+  
     Listen/Respond to Events on an Element -
 
         $("TODO_CSS_SELECTOR").on("click", function() {
             // TODO: snippet(s) to respond to the click event.
         });
 
-    Use a console message to confirm your listening event works.
+    Use a `console` message to confirm your listening event works.
 
         console.log("cookie accept button clicked!");
 
@@ -59,7 +66,7 @@ Follow these steps to implement the cookie banner
 
         $("TODO: Selector").removeClass("TODO: class name");
 
-8.  Make the cookie banner fixed at the bottom of the page:
+1.  Make the cookie banner fixed at the bottom of the page using:
 
     `position: fixed;`<br>
     `bottom: 0;`<br>
