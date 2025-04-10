@@ -43,30 +43,20 @@ Follow these steps to implement the cookie banner
 
         The console should display the message `cookie-banner.js loaded!` if everything is setup properly.
 
-6. Code the interactivity for the cookie banner using these snippets:
+6. Code the interactivity for the cookie banner using the [Project 3 Snippets](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md):
 
-    Resource:  [P3 Snippets](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md) 
+    - Copy in your commented out Pseudocode:
 
-    Pseudocode:
-
-        // when #cookie-accept-button is clicked 
-        //    add .hidden class to #cookie-banner
+        // when #cookie-accept-button is clicked<br>
+        // &nbsp;&nbsp;&nbsp; add .hidden class to #cookie-banner
   
-    Listen/Respond to Events on an Element -
+    - Review the [Project 3 Snippets](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md) and add the snippets you need to complete your pseudocode:
+     
+        - **[Event Snippet: On-Click-Element](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md#event-snippet-on-click-element)**
 
-        $("TODO_CSS_SELECTOR").on("click", function() {
-            // TODO: snippet(s) to respond to the click event.
-        });
+        - Use a **[Snippet: Console Log](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md#snippet-console-log)** to confirm your listening event works
 
-    Use a `console` message to confirm your listening event works.
-
-        console.log("cookie accept button clicked!");
-
-    Add/Remove CSS Class - 
-
-        $("TODO: Selector").addClass("TODO: class name");
-
-        $("TODO: Selector").removeClass("TODO: class name");
+        - **[Snippet: Add CSS Class to Element](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md#event-snippet-on-click-element)** 
 
 7.  Make the cookie banner fixed at the bottom of the page using:
 
