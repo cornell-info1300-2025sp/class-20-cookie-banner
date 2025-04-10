@@ -37,7 +37,7 @@ Follow these steps to implement the cookie banner
 
 5. Test that your `cookie-banner.js` script is loading
 
-    - Add `console.log("cookie-banner.js loaded!")"` to `cookie-banner.js`
+    - Add `console.log("cookie-banner.js loaded!");` to `cookie-banner.js`
 
     - `Inspect` the page and open the `console` top view the messages.
 
@@ -68,12 +68,13 @@ Follow these steps to implement the cookie banner
 
         $("TODO: Selector").removeClass("TODO: class name");
 
-1.  Make the cookie banner fixed at the bottom of the page using:
+7.  Make the cookie banner fixed at the bottom of the page using:
 
     `position: fixed;`<br>
     `bottom: 0;`<br>
     `z-index: 10;`
 
+8.  Notice the `:hover` effect on the banner's `button` element
 
 ## VS Code and Development Server
 
