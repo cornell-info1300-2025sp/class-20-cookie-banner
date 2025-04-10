@@ -52,11 +52,11 @@ Follow these steps to implement the cookie banner
   
     - Review the [Project 3 Snippets](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md) and add the snippets you need to complete your pseudocode:
      
-        - **[Event Snippet: On-Click-Element](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md#event-snippet-on-click-element)**
+        - [Event On-Click-Element Snippet](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md#event-snippet-on-click-element)
 
-        - Use a **[Snippet: Console Log](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md#snippet-console-log)** to confirm your listening event works
+        - Use a [Console Log Snippet](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md#snippet-console-log) to confirm your listening event works
 
-        - **[Snippet: Add CSS Class to Element](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md#event-snippet-on-click-element)** 
+        - [Add CSS Class to Element Snippet](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md#event-snippet-on-click-element)
 
 7.  Make the cookie banner fixed at the bottom of the page using:
 
