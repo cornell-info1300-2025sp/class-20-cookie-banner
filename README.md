@@ -47,8 +47,8 @@ Follow these steps to implement the cookie banner
 
     Pseudocode:
 
-        when #cookie-accept-button is clicked 
-            add .hidden class to #cookie-banner
+        // when #cookie-accept-button is clicked 
+        //    add .hidden class to #cookie-banner
   
     Listen/Respond to Events on an Element -
 
