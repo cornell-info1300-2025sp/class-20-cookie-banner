@@ -45,6 +45,8 @@ Follow these steps to implement the cookie banner
 
 6. Code the interactivity for the cookie banner using these snippets:
 
+    Resource:  [P3 Snippets](https://github.coecis.cornell.edu/info1300-spring25/info1300-2025sp-resources/blob/main/assignments/project3/p3-interactivity-snippets.md) 
+
     Pseudocode:
 
         // when #cookie-accept-button is clicked 
