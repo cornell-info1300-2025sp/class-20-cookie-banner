@@ -76,6 +76,17 @@ Follow these steps to implement the cookie banner
 
 8.  Notice the `:hover` effect on the banner's `button` element
 
+9.  Clean up the code
+
+    - remove `console.log` messages from JS
+    - remove the TODO: comments from HTML/CSS
+
+10. Validate the JS code
+    
+    - validate the JS by rerunning the interactivity 
+    - no errors == validated (codespace messages OK)
+
+
 ## VS Code and Development Server
 
 - **To Code**: Open this repository as a Codespace on GitHub.
